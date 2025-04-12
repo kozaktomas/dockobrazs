@@ -21,3 +21,6 @@ RUN apt-get update \
     telnet \
     wget \
     whois
+
+USER ubuntu
+WORKDIR /home/ubuntu

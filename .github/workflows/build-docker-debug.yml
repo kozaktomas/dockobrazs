@@ -1,4 +1,4 @@
-name: debug-ubuntu
+name: debug
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE: debug-ubuntu
+  IMAGE: debug
 
 jobs:
   build:
