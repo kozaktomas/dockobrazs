@@ -14,10 +14,12 @@ RUN apt-get update \
     apache2-utils \
     iputils-ping \
     iproute2 \
+    nano \
     net-tools \
     libfcgi0ldbl \
     netcat-traditional \
     mtr \
     telnet \
+    vim \
     wget \
     whois
