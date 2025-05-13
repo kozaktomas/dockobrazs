@@ -16,9 +16,11 @@ RUN apt-get update \
     iproute2 \
     net-tools \
     libfcgi0ldbl \
+    nano \
     netcat-traditional \
     mtr \
     telnet \
+    vim \
     wget \
     whois
 
