@@ -18,7 +18,8 @@ RUN apt-get update && apt-get install -y \
     screen \
     unzip \
     wget \
-    zlib1g-dev
+    zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # PHP extensions
 RUN docker-php-ext-configure gd --with-webp --with-avif --with-freetype --with-jpeg --enable-gd && \
