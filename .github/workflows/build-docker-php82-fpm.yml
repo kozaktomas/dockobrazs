@@ -1,4 +1,4 @@
-name: debug-ubuntu
+name: php82-fpm
 
 on:
   push:
