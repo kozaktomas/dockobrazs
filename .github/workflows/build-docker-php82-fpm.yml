@@ -5,10 +5,10 @@ on:
     branches: [ main ]
     tags: [ 'v*.*.*' ]
     paths:
-      - php82/fpm/**
+      - ../../php82-fpm/**
 
 jobs:
   build:
     uses: ./.github/workflows/docker-build.yml
     with:
-      image: php82/fpm
+      image: php82-fpm
