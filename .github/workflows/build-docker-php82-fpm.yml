@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     tags: [ 'v*.*.*' ]
     paths:
-      - ../../php82-fpm/**
+      - php82-fpm/**
 
 jobs:
   build:
