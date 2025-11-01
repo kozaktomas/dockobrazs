@@ -4,21 +4,21 @@ RUN apt-get update && apt-get install -y \
     apt-utils \
     git \
     htop \
-    libicu-dev \
-    libpng-dev \
-    libzip-dev \
-    zlib1g-dev \
-    libwebp-dev \
+    imagemagick \
     libavif-dev \
     libfcgi-dev \
+    libfreetype6-dev \
+    libicu-dev \
+    libjpeg62-turbo-dev \
+    libmagickwand-dev \
+    libpng-dev \
+    libwebp-dev \
+    libzip-dev \
     nano \
+    screen \
     unzip \
     wget \
-    screen \
-    imagemagick \
-    libmagickwand-dev \
-    libfreetype6-dev \
-    libjpeg62-turbo-dev
+    zlib1g-dev
 
 # PHP extensions
 RUN docker-php-ext-configure gd --with-webp --with-avif --with-freetype --with-jpeg --enable-gd && \
