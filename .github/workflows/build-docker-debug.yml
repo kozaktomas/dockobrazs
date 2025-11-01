@@ -10,5 +10,8 @@ on:
 jobs:
   build:
     uses: ./.github/workflows/docker-build.yml
+    permissions:
+      contents: read
+      packages: write
     with:
       image: debug
