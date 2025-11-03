@@ -1,6 +1,7 @@
 name: php82-fpm
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     tags: [ 'v*.*.*' ]
