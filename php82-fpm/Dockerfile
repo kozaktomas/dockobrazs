@@ -4,7 +4,6 @@ FROM php:8.2-fpm-alpine
 RUN set -eux; \
     apk add --no-cache \
       bash \
-      zsh \
       git \
       htop \
       nano \
