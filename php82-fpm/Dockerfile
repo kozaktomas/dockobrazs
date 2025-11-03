@@ -3,6 +3,8 @@ FROM php:8.2-fpm-alpine
 # Runtime packages (tools + libs for extensions)
 RUN set -eux; \
     apk add --no-cache \
+      bash \
+      zsh \
       git \
       htop \
       nano \
